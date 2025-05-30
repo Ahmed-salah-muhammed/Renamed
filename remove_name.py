@@ -4,7 +4,7 @@ import re
 folder_path = rf"pathhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
 
 if not os.path.exists(folder_path):
-    print(f" المسار غير موجود: {folder_path}")
+    print(f" Not exist: {folder_path}")
     exit()
 
 pattern = re.compile(r"what you want to delete")
