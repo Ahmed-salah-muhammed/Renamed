@@ -19,8 +19,8 @@ for filename in os.listdir(folder_path):
         if filename != new_name:
             try:
                 os.rename(old_path, new_path)
-                print(f" تمت إعادة التسمية: {filename} → {new_name}")
+                print(f" renamed: {filename} → {new_name}")
             except Exception as e:
-                print(f" خطأ أثناء إعادة التسمية {filename}: {e}")
+                print(f" error {filename}: {e}")
 
 print(" Done ")
